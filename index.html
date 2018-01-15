@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"  content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-	<title>Mboile phone mall </title>
+	<title>手机商城</title>
 	<link rel="stylesheet" href="css/index.css">
 	<script src="rem.js"></script>
 </head>
@@ -620,41 +620,3 @@
 	</div>
 </body>
 </html>
-<script>
-    window.addEventListener('load',function () {
-        let uls = document.querySelector('.lunbo'),
-            lis = document.querySelector('.lun'),
-            dots = document.querySelectorAll('.lunbo>ul>li'),
-            iw = uls.offsetWidth,
-            count = lis.childElementCount,
-            sx,dirx;
-        lis.innerHTML += lis.innerHTML;
-        lis.style.width = iw * lis.childElementCount + 'px';
-        uls.addEventListener('touchstart',function (e) {
-            lis.style.transition = 'none';
-            let event = e.changedTouches[0];
-            sx=event.pageX,
-                dirx=lis.offsetLeft;
-            if(dirx/iw == 0){
-                lis.style.left = -dots.length*iw + 'px';
-            } else if(dirx/iw == -7){
-                lis.style.left = (1-dots.length)*iw + 'px';
-            }
-            dirx = lis.offsetLeft;
-        })
-        uls.addEventListener('touchmove',function (e) {
-            let event = e.changedTouches[0];
-            let   mx = event.pageX;
-            lis.style.left = dirx + (mx - sx) + 'px';
-        })
-        uls.addEventListener('touchend',function () {
-            let num = Math.round(lis.offsetLeft/iw);
-            dots.forEach(ele =>{
-                ele.classList.remove('hot');
-        })
-            dots[(-num%4)].classList.add('hot');
-            lis.style.transition = 'all ease .5s';
-            lis.style.left = num * iw + 'px';
-        })
-    })
-</script>
