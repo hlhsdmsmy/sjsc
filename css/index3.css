@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+a,img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 10.80rem;
+	height: auto;
+	background-color:#e9e9e9;
+}
+.box .sousuo{
+	width:100% ;
+	height:0.86rem ;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	margin-bottom: 0.23rem;
+}
+.box .sousuo .kuang{
+	width: 8.88rem;
+	height: 0.86rem;
+	background-color: #E9E9E9;
+	border-radius: 0.43rem;
+	margin-left:0.5rem ;
+	float: left;
+}
+.box .sousuo .kuang a{
+	width:0.56rem ;
+	height: 0.56rem;
+}
+.box .sousuo .naoling{
+	width: 0.86rem;
+	height: 0.86rem;
+	float: left;
+	margin-left: 0.25rem;
+}
+.box .sousuo .iconfont{
+	color: #323232;
+	width:0.56rem ;
+	height: 0.56rem;
+	float: left;
+	margin: 0.3rem 0.3rem;
+}
+.ditil{
+	width: 10.8rem;
+	height:1.5rem ;
+	display: flex;
+	background-color:#FFFFFF;
+	border-top: 0.02rem solid #e9e9e9;
+	position:fixed ;
+	bottom: 0;
+	left: 0;
+}
+.ditil .bor{
+	width:20% ;
+	height: 1.5rem;
+	text-align: center;
+	color: #868686;
+}
+.ditil .bor:hover{
+	color: #C9151E;
+}
+.ditil .bor .iconfont{
+	width: 0.8rem;
+	height: 0.8rem;
+	font-size: 0.8rem;
+	margin-left: 0.68rem;
+}
+.ditil .bor p{
+	font-size: 0.4rem;
+}
+.box .toutiao{
+	width: 10.8rem;
+	height: 2.48rem;
+	margin-top: 0.92rem;
+	display: flex;
+	background-color: white;
+	border-top: 0.06rem solid#e9e9e9 ;
+}
+.box .toutiao .btn{
+	width: 25%;
+	height: 2.48rem;
+	margin: 0 auto;
+	background-color: white;
+
+}
+.box .toutiao .btn img{
+	width:1.8rem ;
+	height: 1.8rem;
+	margin-left: 0.4rem;
+}
+.box .toutiao .btn h1{
+	font-size: 0.48rem;
+	text-align:center;
+	color: black;
+}
+.box .sc{
+	width: 10.8rem;
+	height: auto;
+	background-color: white;
+	margin-bottom: 2rem;
+}
+.box .sc .tt{
+	width: 10.8rem;
+	height: 1.5rem;
+}
+.box .sc .tt h2{
+	font-size: 0.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #006CA7;
+	padding-left: 2.8rem;
+	border-top: 0.06rem solid#e9e9e9 ;
+}
+.box .sc .tt h2 span{
+	color: #B4B4B4;
+	font-size: 0.3rem;
+	margin-left: 2.8rem;
+}
+.box .sc .gl{
+	height:1.5rem ;
+	width: 10.8rem;
+	display: flex;
+	justify-content: space-around;
+}
+.box .sc .gl .bn{
+	width: 2.5rem;
+	height: 1.5rem;
+}
+.box .sc .gl .bn img{
+	width: 2.5rem;
+	height: 1.5rem;
+	border-radius: 0.2rem
+}
+.box .sc .nr{
+	width: 10.8rem;
+	height: auto;
+	margin: 0.12rem 0;
+}
+.box .sc .nr .pi{
+	width: 10.8rem;
+	height: 6.66rem;
+}
+.box .sc .nr .pi img{
+	width: 10.8rem;
+	height: 6.66rem;
+}
+.box .sc .nr h1{
+	width: 10.5rem;
+	height: 1.16rem;
+	line-height: 1.16rem;
+	font-size: 0.4rem;
+	margin-left: 0.3rem;
+}
+.box .sc .nr h2{
+	width: 10.5rem;
+	height: auto;
+	font-size: 0.3rem;
+	color: #666666;
+	margin-left: 0.3rem;
+}
+.box .sc .ping{
+	width:10.8rem ;
+	height: auto;
+}
+.box .sc .ping .tii{
+	width: 10.8rem;
+	height: 0.94rem;
+	line-height: 0.94rem;
+	border-top: 0.08rem solid #e9e9e9;
+}
+.box .sc .ping .tii .lef{
+	width: auto;
+	height: 0.94rem;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	float: left;
+	margin-left: 0.3rem;
+}
+.box .sc .ping .tii .rig{
+	width: auto;
+	height: 0.94rem;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	float: right;
+	margin-right: 0.3rem;
+}
+.box .sc .ping .tii .rig span{
+	font-size: 0.24rem;
+}
+.box .sc .ping .bo{
+	width: 10.8rem;
+	height: 2.76rem;
+	display: flex;
+	margin-bottom: 0.08rem;
+}
+.box .sc .ping .bo .leff{
+	width: 4.5rem;
+	height: 2.76rem;
+}
+.box .sc .ping .bo .leff img{
+	width: 4.5rem;
+	height: 2.76rem;
+}
+.box .sc .ping .bo .rigg{
+	width: 6.3rem;
+	height: 2.76rem;
+/* 	padding: 0.4rem; */
+	box-sizing: border-box;
+	background-color: #f8f8f8;
+}
+.box .sc .ping .bo .rigg .pp{
+	width: 6rem;
+	height:2rem;
+	font-size: 0.4rem;
+	margin-left: 0.3rem;
+
+}
+.box .sc .ping .bo .rigg .pinglun{
+	width: 6.3rem;
+	height: 0.76rem;
+	line-height: 0.76rem;
+
+}
+.box .sc .ping .bo .rigg .pinglun .time{
+	width: auto;
+	height: 0.94rem;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	float: left;
+	margin-left: 0.3rem;
+}
+.box .sc .ping .bo .rigg .pinglun .shu{
+	width: auto;
+	height: 0.94rem;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	float: right;
+	margin-right: 0.3rem;
+}
+.box .sc .ping .bo .rigg .pinglun span{
+	font-size: 0.24rem;
+}
+.box .sc .ping .more{
+	width: 10.8rem;
+	height:1.62rem ;
+	font-size: 0.4rem;
+	line-height: 1.62rem;
+	text-align: center;
+
+}
+.box .sc .ping .more a{
+	color: black;	
+}
+.box .sc .nrr{
+	width: 10.5rem;
+	height: 6.7rem;
+	margin: 0.15rem;
+}
+.box .sc .nrr .pic{
+	width: 10.5rem;
+	height: 3.9rem;
+}
+.box .sc .nrr .pic img{
+	width: 10.5rem;
+	height: 3.9rem;
+}
+.box .sc .nrr .neirong{
+	width: 10.5rem;
+	height: 2.28rem;
+}
+.box .sc .nrr .neirong h4{
+	width: 10.5rem;
+	height: 1.14rem;
+	line-height: 1.14rem;
+	font-size: 0.4rem;
+}
+.box .sc .nrr .neirong h5{
+	width:10.5rem;
+	height: 1.14rem;
+	font-size: 0.3rem;
+	color:#666666;
+}
+.box .sc .nrr .neirong h5 span{
+	color: red;
+}
+.box .sc .tim{
+	width: 9.84rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	border-top: 0.04rem solid #e9e9e9;
+}
+.box .sc .tim .left{
+	width: 5rem;
+	height: 0.9rem;
+	float: left;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	line-height: 0.9rem ;
+}
+.box .sc .tim .right{
+	width: auto;
+	height: 0.9rem;
+	float: right;
+	color: #b7b7b7;
+	font-size: 0.24rem;
+	line-height: 0.9rem ;
+	margin-left: 2rem;
+}

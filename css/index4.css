@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 10.8rem;
+	height: auto;
+
+}
+.box .pic{
+	width: 10.8rem;
+	height: 6.35rem;
+	overflow: hidden;
+}
+.box .pic img{
+	margin: 0 auto;
+	margin-top: 1.68rem;
+}
+.box .pic p{
+	font-size: 0.56rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.7rem;
+}
+.box .xieyi{
+	width: 10.8rem;
+	height: 2.8rem;
+}
+.box .xieyi p{
+	width: 9.40rem;
+	height: 2rem;
+	font-size: 0.36rem;
+	margin: 0 auto;
+	text-align: center;
+	color: #737373;
+}
+.box .xieyi h1{
+	font-size: 0.36rem;
+	text-align: center;
+	color: #707070;
+}
+.box .form{
+	width: 9.54rem;
+	height:auto ;
+	margin: 0 auto;
+}
+
+input[type="text"]{
+	width: 9.54rem;
+	height: 1.26rem;
+	border: 1px solid #AFAFAF;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	padding: 0.40rem 0.25rem;
+	box-sizing: border-box;
+	font-size: 0.44rem;
+	margin-bottom: 0.4rem;
+	outline:none;
+}
+input[type="password"]{
+	width: 9.54rem;
+	height: 1.26rem;
+	border: 1px solid #AFAFAF;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	padding: 0.40rem 0.25rem;
+	box-sizing: border-box;
+	font-size: 0.44rem;
+	margin-bottom: 0.4rem;
+	outline:none;
+}
+input[type="button"]{
+	width: 9.54rem;
+	height: 1.26rem;
+	border: 1px solid #AFAFAF;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	padding: 0.40rem 0.25rem;
+	box-sizing: border-box;
+	font-size: 0.44rem;
+	background-color: #D1F1EF;
+	color: white;
+	margin-bottom: 0.4rem;
+	outline:none;
+}
+button[type="submit"]{
+	width: 9.54rem;
+	height: 1.26rem;
+	border: 1px solid #AFAFAF;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	padding: 0.40rem 0.25rem;
+	box-sizing: border-box;
+	font-size: 0.44rem;
+	background-color: #D1F1EF;
+	color: white;
+	margin-bottom: 0.4rem;
+	outline:none;
+}
+.box .xuan{
+	width: 10.8rem;
+	height: 0.44rem;
+	font-size: 14px;
+	text-align: center;
+
+}
+.box .xuan a{
+	color: #6FC0C6;
+	display: inline-block;
+}
+.box .pingtai{
+	width: 5.06rem;
+	height: 0.98rem;
+	margin: 0 auto;
+	margin-top: 0.64rem;
+	display: flex;
+	justify-content: space-between;
+}
+.box .pingtai a{
+	display: block;
+}
+.box .pingtai a img{
+	width: 0.98rem;
+	height: 0.98rem;
+}

@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input,label{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width: 10.8rem;
+	height: 19.2rem;
+}
+.ditil{
+	width: 10.8rem;
+	height:1.5rem ;
+	display: flex;
+	background-color:#FFFFFF;
+	border-top: 0.02rem solid #e9e9e9;
+	position:fixed ;
+	bottom: 0;
+	left: 0;
+}
+.ditil .bor{
+	width:20% ;
+	height: 1.5rem;
+	text-align: center;
+	color: #868686;
+}
+.ditil .bor:hover{
+	color: #C9151E;
+}
+.ditil .bor .iconfont{
+	width: 0.8rem;
+	height: 0.8rem;
+	font-size: 0.8rem;
+	margin-left: 0.68rem;
+}
+.ditil .bor p{
+	font-size: 0.4rem;
+}
+body{
+	background-color: #EAEAEA;
+}
+.box .nav{
+	width: 100%;
+	height: 1.24rem;
+	padding: 0.2rem 0.5rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.24rem;
+	background-color: white;
+}
+.box .nav .all{
+	width: auto;
+	height: 100%;
+	font-size: 0.44rem;
+	font-weight: normal;
+	line-height: 0.84rem;
+}
+.box .nav .all span{
+	margin: 0 0.31rem;
+}
+.box .comm{
+	width: 100%;
+	height: 2.85rem;
+	background-color: white;
+	border-bottom: 1px solid #eaeaea;
+	display: flex;
+}
+.box .comm .left{
+	width: 1.5rem;
+	height: 100%;
+	text-align: center;
+	line-height: 2.5rem;
+}
+.box .comm .right{
+	width: 9.3rem;
+	height: 100%;
+	padding: 0.4rem 0.5rem 0.4rem 0;
+	box-sizing: border-box;
+	display: flex;
+}
+.box .comm .right .phone{
+	width: 2.03rem;
+	height: 2.03rem;
+}
+.box .comm .right .phone img{
+	width: 2.03rem;
+	height: 2.03rem;	
+}
+.box .comm .right .xinxi{
+	width: 7.27rem;
+	height: 2.03rem;
+	padding: 0 0 0 0.5rem;
+	box-sizing: border-box;
+}
+.box .comm .right .xinxi p{
+	font-size: 0.28rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #333333;
+}
+.box .comm .right .xinxi h6{
+	font-size: 0.28rem;
+	font-weight: normal;
+	color: #CA141D;
+}
+.box .comm .right .xinxi h6 span{
+	margin-left: 4rem;
+	color: #ccc;
+}
+.box .commi{
+	width: 100%;
+	height: 1.05rem;
+	margin-bottom: 0.18rem;
+	background-color: white;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+}
+.box .commi p{
+	font-size: 0.32rem;
+	line-height: 1.05rem;
+	color: #333333;
+		text-align: right;
+}
+.box .tuijian{
+	height: 0.9rem;
+	background-color: white;
+	border-bottom: 1px solid #eaeaea;
+	padding: 0 0.5rem;
+	line-height: 0.9rem;
+	color: #333;
+	font-size: 0.32rem;
+}
+.box .commit{
+	width: 100%;
+	height: 3.5rem;
+	background-color: white;
+	border-bottom: 1px solid #eaeaea;
+	display: flex;
+	overflow: hidden;
+}
+.box .commit .btn{
+	width: 3.14rem;
+	height: 3.5rem;
+	border-right: 1px solid #eaeaea;
+/* 	background-color: greenyellow; */
+	text-align: center;
+}
+.box .commit .btn img{
+	width: 1.6rem;
+	height: 1.6rem;
+	margin: 0.44rem 0.54rem;
+}
+.box .commit .btn h1{
+	font-size: 0.24rem;
+	color: #333;
+}
+.box .commit .btn h2{
+	color: #CA141D;
+	font-size: 0.24rem;
+}
+.box .price{
+	width: 100%;
+	height: 1.2rem;
+	background-color: white;
+	display: flex;
+	position: fixed;
+	bottom:1.5rem ;
+
+}
+.box .price .left{
+	width: 8.1rem;
+	height: 100%;
+	padding:0 0.35rem ;
+	box-sizing: border-box;
+	line-height: 1.2rem;
+}
+.box .price .right{
+	width:2.7rem ;
+	height: 100%;
+	background-color: #CA141D;
+	color:white;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.ll{
+}
+.price .left{
+	font-size: 0.32rem;
+	color: #333;
+}
+.price .left i{
+	background-image: url("../img/icon4_1.png");
+	background-repeat: no-repeat;
+    border: 0 none;
+    display: inline-block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-position: 0 -0.6rem;
+    background-size: 100% 200%;
+    vertical-align: middle;
+}
+.price .left p{
+	display: inline-block;
+	color: #ca141d;
+	float: right;
+}

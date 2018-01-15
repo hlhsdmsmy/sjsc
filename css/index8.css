@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input,label{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.box{
+	width:10.8rem ;
+	height: 19.2rem;
+	background-color: #eaeaea;
+}
+.box .tittle{
+	width: 100%;
+	height: 1.38rem;
+	padding: 0 0.6rem;
+	line-height: 1.38rem;
+	margin-bottom: 0.33rem;
+	background-color: white;
+	box-sizing: border-box;
+}
+.box .tittle a{
+	font-size: 0.4rem;
+	color: #4C4C4C;
+}
+.box .tittle a span{
+	margin-left: 0.6rem;
+}
+.box .hao{
+	width: 100%;
+	height: 1.17rem;
+	font-size: 0.34rem;
+	background-color: white;
+	line-height: 1.17rem;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	margin-bottom: 0.03rem;
+}
+.box .hao span{
+	margin-left: 1.2rem;
+	color: #888888;
+}
+.box .shouji{
+	width: 100%;
+	height:2.28rem ;
+	box-sizing: border-box;
+	background-color: white;
+	padding: 0.25rem 0.95rem;
+	margin-bottom: 0.03rem;
+}
+.box .shouji .pic{
+	width: 1.45rem;
+	height: 1.8rem;
+	float: left;
+	margin-right: 0.8rem;
+}
+.box .shouji .pic img{
+	width: 1.8rem;
+	height: 1.8rem;
+}
+.box .shouji .xinxi{
+	width: auto;
+	height: 1.78rem;
+	font-size: 0.32rem;
+	line-height: 0.9rem;
+	float: left;
+}
+.box .shouji .xinxi span{
+	margin-left: 4rem
+}
+.box .dingdan{
+	width: 100%;
+	height:1.68rem ;
+/* 	padding: 0.25rem 0.95rem; */
+	box-sizing: border-box;
+	font-size: 0.35rem;
+	background-color: white;
+}
+.box .dingdan .left{
+	width: auto;
+	height: auto;
+	float: left;
+	padding: 0.25rem 0 0.25rem 0.95rem;
+}
+.box .dingdan .left p{
+	padding-bottom: 0.02rem;
+}
+.box .dingdan .left .shangpin{
+	color: #888;
+}
+.box .dingdan .left .queren{
+	color: #E01D20;
+}
+.box .dingdan .right{
+	width: 1.86rem;
+	height: auto;
+	float:right;
+	background-color: red;
+	font-size: 0.38rem;
+	border-radius: 0.2rem;
+	margin-top: 0.6rem;
+	margin-right: 0.75rem;
+	text-align: center;
+}
+.box .dingdan .right a{
+	color: white;
+}
